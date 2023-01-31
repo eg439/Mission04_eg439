@@ -1,0 +1,21 @@
+﻿body {
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+label {
+    font-size: 20px;
+    color: darkcyan;
+    width: 150px;
+    display: inline-block;
+}
+
+
+input{
+    min-inline-size: 5px;
+
+}
+
+li {
+    list-style-type: none;
+}
