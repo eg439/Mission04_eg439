@@ -2,17 +2,17 @@
 
 $('#btnSend').click(function () {
     // getting info from the form
-    asngPct = ((parseInt($('#assignments').val())) * 0.50);
+    asngPct = (((parseInt($('#assignments').val()))/100) * 0.50);
 
-    groupPct = ((parseInt($('#groupProjects').val())) * 0.10);
+    groupPct = (((parseInt($('#groupProjects').val())) / 100) * 0.10);
 
-    quizzPct = ((parseInt($('#quizzes').val())) * 0.10);
+    quizzPct = (((parseInt($('#quizzes').val())) / 100) * 0.10);
 
-    midtermPct = ((parseInt($('#midtermExam').val())) * 0.10);
+    midtermPct = (((parseInt($('#midtermExam').val())) / 100) * 0.10);
 
-    finalPct = ((parseInt($('#finalExam').val())) * 0.10);
+    finalPct = (((parseInt($('#finalExam').val())) / 100) * 0.10);
 
-    intexPct = ((parseInt($('#intex').val())) * 0.10);
+    intexPct = (((parseInt($('#intex').val())) / 100) * 0.10);
 
     // calculating totalpct
     totalPct = asngPct + groupPct + quizzPct + midtermPct + finalPct + intexPct;
